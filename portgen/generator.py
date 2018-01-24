@@ -2,7 +2,7 @@ import socket
 from random import *
 
 
-class Generator:
+class PortGenerator:
 
     def __init__(self, address='0.0.0.0', min_range=5000, max_range=6000, number_of_ports=1):
         self.in_use = []
