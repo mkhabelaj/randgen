@@ -9,7 +9,7 @@ class Generator:
         self.string_length = string_length
 
     def produce_strings(self):
-        result = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(self.string_length))
+        return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(self.string_length))
 
 
 
